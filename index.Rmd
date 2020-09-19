@@ -1,0 +1,30 @@
+---
+title: 
+    公衆衛生学実習 <br>
+    参考資料 
+author: 
+    公衆衛生学講座 <br>
+    王　超辰 
+date: "2020-09-30"
+output:
+  xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
+    css: xaringan-themer.css
+    lib_dir: libs
+    nature:
+      countdown: 60000
+      highlightStyle: github
+      highlightLines: true
+      highlightSpans: true
+      countIncrementalSlides: false
+      ratio: 4:3 #16:9
+editor_options: 
+  chunk_output_type: console
+---
+
+class: middle, center, inverse
+
+# オッズ比の計算
+
+---
+class: middle
