@@ -1,10 +1,8 @@
 ---
-title: 
-    公衆衛生学実習 <br>
-    参考資料 
+title: "公衆衛生学実習 <br> .med[参考資料]"
 author: 
-    公衆衛生学講座 <br>
-    王　超辰 
+    Chaochen Wang | 王　超辰 <br>
+    公衆衛生学講座
 date: "2020-09-30"
 output:
   xaringan::moon_reader:
