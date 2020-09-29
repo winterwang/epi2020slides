@@ -20,9 +20,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-class: middle, center, inverse
+class: middle, center
 
-# オッズ比の計算
+# [資料リンク](https://github.com/winterwang/Epi2020/raw/master/EZRintro/intro.pdf)
 
----
-class: middle
