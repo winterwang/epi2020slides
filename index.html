@@ -131,7 +131,81 @@ class: middle
 ## 問題
 
 
-13）この新型ウイルスの新しい治療法を検証するために、30名の患者にランダム化比較試験へ参加してもらい、回復して退院できるまでの時間（週）を記録した。
+.pull-left[.med[
+13）この新型ウイルスの新しい治療法を検証するために、30名の患者にランダム化比較試験へ参加してもらい、回復して退院できるまでの時間（週）を記録した。]
+]
+
+.pull-right[.small[
+&lt;img src="fig/datadrug.png" width="408" /&gt;
+]]
+
+
+---
+class: middle
+
+退院できるまでの生存曲線をEZRで比較して違いはあるかを検定するとき
+
+- 新薬投与群と既存薬治療群の退院までの時間それぞれの中央値を計算せよ
+- 作成したカプランマイヤー生存曲線図をPDFファイルで提出せよ
+
+
+
+```
+       n median survival 95% CI p.value
+Drug=0 16             5.0    4-7  0.0103
+Drug=1 14             9.5 4.5-NA   
+```
+
+
+---
+background-image: url("fig/KM.png")
+background-position: 50% 50%
+background-size: contain
+
+
+
+
+---
+class: middle
+
+## 生存確率表
+
+
+
+.small[
+```
+                Drug=0 
+ time n.risk n.event survival std.err lower 95% CI upper 95% CI
+  3.0     16       1    0.938  0.0605       0.8261        1.000
+  3.5     14       1    0.871  0.0856       0.7180        1.000
+  4.0     13       3    0.670  0.1212       0.4697        0.955
+  4.5      9       1    0.595  0.1285       0.3898        0.909
+  5.0      8       2    0.446  0.1327       0.2494        0.799
+  5.5      4       1    0.335  0.1387       0.1487        0.754
+  7.0      2       1    0.167  0.1372       0.0336        0.834
+  8.0      1       1    0.000     NaN           NA           NA
+                Drug=1 
+ time n.risk n.event survival std.err lower 95% CI upper 95% CI
+  3.0     14       1    0.929  0.0688        0.803        1.000
+  4.0     13       1    0.857  0.0935        0.692        1.000
+  4.5     12       1    0.786  0.1097        0.598        1.000
+  5.0     11       1    0.714  0.1207        0.513        0.995
+  7.5      9       1    0.635  0.1308        0.424        0.951
+  8.5      7       1    0.544  0.1401        0.329        0.901
+  9.5      5       2    0.327  0.1459        0.136        0.784
+```
+]
+
+
+---
+background-image: url("fig/KMfancy.png")
+background-position: 50% 50%
+background-size: contain
+
+
+
+
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="libs/remark-latest.min.js"></script>
